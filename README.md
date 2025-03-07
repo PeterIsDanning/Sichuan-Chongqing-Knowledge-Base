@@ -1,16 +1,16 @@
-# Sichuan & Chongqing Listed Companies Daily Information Knowledge Base
+# Sichuan & Chongqing Listed Companies Daily Information Knowledge Base 川渝上市公司每日资讯知识库
 
-## Project Overview
+## Project Overview 项目简介
 This project aims to establish a **daily information knowledge base** for listed companies in Sichuan and Chongqing. It collects and organizes daily reports and essential company information, enabling intelligent Q&A interactions using large language models.
 本项目旨在建立**川渝地区上市公司的每日资讯知识库**，收集并整理每日报告及公司关键信息，同时利用大模型构建智能问答系统。
 
-## Project Structure
+## Project Structure 项目结构
 - **`daily/`**: Stores daily reports on Sichuan and Chongqing listed companies. 存储川渝上市公司每日资讯报告。
 - **`data/`**: Contains CSV files used in the project, including executive information. 包含项目使用的 CSV 数据文件，如高管信息等。
 - **`infobase/`**: Holds basic information about all Sichuan and Chongqing listed companies. 存储所有川渝上市公司的基本信息。
 - **`output_categories/`**: Categorizes all listed companies based on their industry sectors. 按照行业对所有川渝上市公司进行分类。
 
-### Code & Usage
+### Code & Usage 代码与使用方式
 - **`company_daily_extraction.ipynb`**: Extracts daily news reports for listed companies. 用于提取川渝上市公司每日资讯。
   - Running this notebook generates daily reports stored in the `daily/` folder. 运行后会在 `daily/` 文件夹中生成当日资讯文件。
   - Execution time: **15-25 minutes**, depending on local network conditions. 运行时间：**15-25 分钟**，取决于本地网络情况。
@@ -22,7 +22,7 @@ This project aims to establish a **daily information knowledge base** for listed
 - **`executive_information_extraction.ipynb`**: Extracts executive details of listed companies.
   - The collected information is stored in `data/executive.csv`.
 
-## Legal & Intellectual Property
+## Legal & Intellectual Property 知识产权与法律声明
 - The collected data is for **research and educational purposes only**. 本项目所收集数据仅供**学术研究和教育用途**。
 - Ensure compliance with **data access policies** of the original sources. 请确保遵守原始数据来源的**访问和使用政策**。
 - The project does not claim ownership over the extracted data. 本项目不对所爬取数据拥有所有权。
